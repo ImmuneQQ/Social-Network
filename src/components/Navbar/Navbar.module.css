@@ -1,0 +1,14 @@
+.nav {
+    grid-area: n;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    color: white !important;
+}
+
+.active {
+    color: red;
+}

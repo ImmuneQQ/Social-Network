@@ -1,0 +1,25 @@
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 60px 1fr;
+    /*grid-gap: 10px;*/
+    grid-template-areas: "h h"
+                         "n c";
+    font-size: 20px;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background: aliceblue;
+}
