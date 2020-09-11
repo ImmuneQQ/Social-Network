@@ -3,12 +3,15 @@
     background: gray;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .item {
     color: white !important;
 }
 
-.active {
-    color: red;
+a.active,
+a:hover{
+    color: red !important;
+    text-decoration: underline;
 }
