@@ -5,7 +5,7 @@ import MyPosts from "./MyPosts/MyPosts";
 const Profile = () => {
     return (
         <div className={s.content}>
-            <img className={s.img} src={'https://s1.1zoom.me/b5050/381/401048-blackangel_1366x768.jpg'} />
+            <img className={s.img} src={'https://filedn.com/ltOdFv1aqz1YIFhf4gTY8D7/ingus-info/BLOGS/Photography-stocks3/stock-photography-slider.jpg'} />
             <MyPosts />
         </div>
     );
