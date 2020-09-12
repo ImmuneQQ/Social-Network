@@ -1,0 +1,9 @@
+.img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dscBlock {
+    padding: 10px;
+}

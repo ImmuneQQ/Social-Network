@@ -1,7 +1,15 @@
-.posts_wrapper {
-
+.postsWrapper {
+    padding: 10px;
 }
 
 .posts {
 
+}
+
+.newPostWrapper {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0 0 10px 0;
 }
